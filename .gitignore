@@ -1,0 +1,17 @@
+# 실제 색인은 개인정보다 — 절대 커밋하지 않는다 (예시는 examples/ 의 가상 데이터만)
+.dossier-index.json
+*.dossier-index.json
+dossier-index*.json
+!examples/**
+
+# 금지어 목록·비공개 메모
+denylist*.txt
+.private/
+
+# 일반
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*
